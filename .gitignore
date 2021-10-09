@@ -1,0 +1,21 @@
+.vscode
+.ipynb_checkpoints
+*.pyc
+__pycache__
+
+# specific files
+# too big
+config.json
+
+brenda_data_collection/logs/
+brenda_data_collection/get_fullpapers/*
+
+# Ignore everything in data/ except Readme. This folder must be empty.
+data/*
+!data/Readme.md
+
+# tagging output
+output_ner/
+tagging/*.log
+tagging/*.json
+
